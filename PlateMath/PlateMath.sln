@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlateMath.WinPhone", "Plate
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PlateMath", "PlateMath\PlateMath\PlateMath.shproj", "{74208F62-E2D8-46C9-89C2-EE0496929FEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlateMath.WinUniversal", "PlateMath.WinUniversal\PlateMath.WinUniversal.csproj", "{5E2940D3-A714-49C8-9392-C1CBB46F3B3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlateMath.WinUniversal", "PlateMath\PlateMath.WinUniversal\PlateMath.WinUniversal.csproj", "{5E2940D3-A714-49C8-9392-C1CBB46F3B3E}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
