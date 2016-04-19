@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/gridLayout1"
+    android:rowCount="3">
+    <TextView
+        android:text="45 lbs"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_row="0"
+        android:textAlignment="center" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_row="1">
+        <Button
+            android:id="@+id/lbs2_5"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:text="2.5 lbs"
+            android:layout_marginTop="-13px"
+            android:layout_marginBottom="-13px" />
+        <Button
+            android:id="@+id/lbs5"
+            android:layout_width="260px"
+            android:layout_height="wrap_content"
+            android:text="5 lbs"
+            android:layout_marginTop="-13px"
+            android:layout_marginBottom="-13px" />
+        <Button
+            android:id="@+id/lbs10"
+            android:layout_width="320px"
+            android:layout_height="wrap_content"
+            android:text="10 lbs"
+            android:layout_marginTop="-13px"
+            android:layout_marginBottom="-13px" />
+        <Button
+            android:id="@+id/lbs25"
+            android:layout_width="380px"
+            android:layout_height="wrap_content"
+            android:text="25 lbs"
+            android:layout_marginTop="-13px"
+            android:layout_marginBottom="-13px" />
+        <Button
+            android:id="@+id/lbs35"
+            android:layout_width="440px"
+            android:layout_height="wrap_content"
+            android:text="35 lbs"
+            android:layout_marginTop="-13px"
+            android:layout_marginBottom="-13px" />
+        <Button
+            android:id="@+id/lbs45"
+            android:layout_height="wrap_content"
+            android:text="45 lbs"
+            android:layout_marginTop="-13px"
+            android:layout_marginBottom="-13px"
+            android:layout_width="500px" />
+    </LinearLayout>
+</GridLayout>

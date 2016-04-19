@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="PlateMath.WinPhone.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PlateMath.WinPhone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="4*" />
+            <RowDefinition Height="4*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="textBlock" Grid.Row="0" Text="45 lbs" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">
+            <Rectangle Height="20" Width="100" Fill="#FF817B7B" />
+            <Rectangle Height="40" Width="20" Fill="#FF817B7B" />
+            <Rectangle Height="25" Width="180" Fill="#FF817B7B" />
+        </StackPanel>
+
+        <StackPanel  Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,25">
+            <Button Width="110" Content="2.5 lbs" x:Name="Button2_5" HorizontalAlignment="Center" Margin="0,-10" />
+            <Button Width="140" Content="5 lbs" x:Name="Button5" HorizontalAlignment="Center" Margin="0,-10" />
+            <Button Width="170" Content="10 lbs" x:Name="Button10" HorizontalAlignment="Center" Margin="0,-10" />
+            <Button Width="200" Content="25 lbs" x:Name="Button25" HorizontalAlignment="Center" Margin="0,-10" />
+            <Button Width="230" Content="35 lbs" x:Name="Button35" HorizontalAlignment="Center" Margin="0,-10" />
+            <Button Width="260" Content="45 lbs" x:Name="Button45" HorizontalAlignment="Center" Margin="0,-10" />
+        </StackPanel>
+        
+    </Grid>
+</Page>
